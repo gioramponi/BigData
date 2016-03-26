@@ -10,7 +10,7 @@ pre:
 	cd $(SRC); make
 
 4gb.dat:
-	./$(BIN)make-rand 4gb.dat 1000000000
+	./$(DIR)make-rand-file $(DIR)4gb.dat 1000000000
 
 8gb.dat:
-	./$(BIN)make-rand 8gb.dat 2000000000
+	./$(DIR)make-rand-file $(DIR)8gb.dat 2000000000
